@@ -1,102 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
+
+    <title>Ken Buena | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <h2>My Portfolio</h2>
+    <!-- ================= NAVIGATION ================= -->
 
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <header class="navbar">
+
+        <div class="logo">
+            KEN<span>.</span>
+        </div>
+
+        <nav class="nav-links">
+
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+
         </nav>
+
     </header>
+
+
+    <!-- ================= HERO ================= -->
 
     <main>
 
-        <section id="home">
-            <h1>Hello, I'm Your Name 👋</h1>
-            <h2>Student & Aspiring Developer</h2>
-            <p>
-                Welcome to my portfolio. Here you can find my projects,
-                skills, and experience.
-            </p>
+        <section id="home" class="hero">
 
-            <a href="#projects">View My Projects</a>
-        </section>
+            <div class="hero-content">
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                Write a short introduction about yourself here.
-                Include your course, interests, and what you are
-                currently learning.
-            </p>
-        </section>
+                <div class="hero-label">
+                    <span></span>
+                    BSIT STUDENT / ASPIRING DEVELOPER
+                </div>
 
-        <section id="skills">
-            <h2>Skills</h2>
+                <h1>
+                    KEN<br>
+                    <span>BUENA</span>
+                </h1>
 
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Git & GitHub</li>
-            </ul>
-        </section>
-
-        <section id="projects">
-            <h2>My Projects</h2>
-
-            <article>
-                <h3>Project 1</h3>
                 <p>
-                    Describe your project here and explain
-                    what technologies you used.
+                    I build digital experiences through
+                    code, creativity, and technology.
                 </p>
-                <a href="#">View Project</a>
-            </article>
 
-            <article>
-                <h3>Project 2</h3>
-                <p>
-                    Describe your second project here.
-                </p>
-                <a href="#">View Project</a>
-            </article>
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn">
+                        VIEW PROJECTS
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        CONTACT ME
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-terminal">
+
+                <div class="terminal-header">
+
+                    <span class="terminal-dot"></span>
+                    <span class="terminal-dot"></span>
+                    <span class="terminal-dot"></span>
+
+                    <span class="terminal-title">
+                        system.exe
+                    </span>
+
+                </div>
+
+                <div class="terminal-body">
+
+                    <p>
+                        <span class="purple">></span>
+                        initializing portfolio...
+                    </p>
+
+                    <p>
+                        <span class="purple">></span>
+                        loading skills...
+                    </p>
+
+                    <p>
+                        <span class="purple">></span>
+                        loading projects...
+                    </p>
+
+                    <p class="success">
+                        SYSTEM READY_
+                    </p>
+
+                </div>
+
+            </div>
 
         </section>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
 
-            <p>Email: your@email.com</p>
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section">
+
+            <div class="section-number">
+                01 / ABOUT
+            </div>
+
+            <h2>
+                ABOUT <span>ME</span>
+            </h2>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+
+                    <p>
+                        Hi! I'm Ken, a BSIT student interested
+                        in programming, web development, and
+                        technology.
+                    </p>
+
+                    <p>
+                        I enjoy creating applications,
+                        learning new technologies, and
+                        turning ideas into functional
+                        digital experiences.
+                    </p>
+
+                    <p>
+                        I'm currently building projects to
+                        improve my skills and experience as
+                        a future IT professional.
+                    </p>
+
+                </div>
+
+
+                <div class="about-stats">
+
+                    <div class="stat">
+
+                        <strong>03+</strong>
+
+                        <span>
+                            YEARS LEARNING
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <strong>08+</strong>
+
+                        <span>
+                            TECHNOLOGIES
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <strong>∞</strong>
+
+                        <span>
+                            IDEAS
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section">
+
+            <div class="section-number">
+                02 / SKILLS
+            </div>
+
+            <h2>
+                TECH <span>STACK</span>
+            </h2>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+
+                    <span class="skill-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Java
+                    </h3>
+
+                    <p>
+                        Object-oriented programming
+                        and application development.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <span class="skill-number">
+                        02
+                    </span>
+
+                    <h3>
+                        JavaScript
+                    </h3>
+
+                    <p>
+                        Interactive websites and
+                        dynamic web applications.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <span class="skill-number">
+                        03
+                    </span>
+
+                    <h3>
+                        PHP
+                    </h3>
+
+                    <p>
+                        Backend development and
+                        database-driven applications.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <span class="skill-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Python
+                    </h3>
+
+                    <p>
+                        Programming, automation,
+                        and problem solving.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <span class="skill-number">
+                        05
+                    </span>
+
+                    <h3>
+                        C / C#
+                    </h3>
+
+                    <p>
+                        Programming fundamentals and
+                        application development.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <span class="skill-number">
+                        06
+                    </span>
+
+                    <h3>
+                        SQL
+                    </h3>
+
+                    <p>
+                        Database management and
+                        structured data.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="section">
+
+            <div class="section-number">
+                03 / PROJECTS
+            </div>
+
+            <h2>
+                SELECTED <span>PROJECTS</span>
+            </h2>
+
+
+            <div class="projects-grid">
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Pokédex Application
+                        </h3>
+
+                        <p>
+                            An interactive Pokédex application
+                            that retrieves Pokémon information
+                            and displays it through a
+                            user-friendly interface.
+                        </p>
+
+                        <div class="tags">
+
+                            <span>JAVA</span>
+                            <span>API</span>
+                            <span>JAVASCRIPT</span>
+
+                        </div>
+
+                    </div>
+
+                    <span class="project-arrow">
+                        →
+                    </span>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            LGU Borrowing System
+                        </h3>
+
+                        <p>
+                            A proposed borrowing and inventory
+                            system designed to track items
+                            through barcode scanning and
+                            digital records.
+                        </p>
+
+                        <div class="tags">
+
+                            <span>PHP</span>
+                            <span>SQL</span>
+                            <span>BARCODE</span>
+
+                        </div>
+
+                    </div>
+
+                    <span class="project-arrow">
+                        →
+                    </span>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Portfolio Website
+                        </h3>
+
+                        <p>
+                            A futuristic personal portfolio
+                            website created to showcase my
+                            skills, projects, and development
+                            journey.
+                        </p>
+
+                        <div class="tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JAVASCRIPT</span>
+
+                        </div>
+
+                    </div>
+
+                    <span class="project-arrow">
+                        →
+                    </span>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="section-number">
+                04 / CONTACT
+            </div>
+
+            <h2>
+                LET'S BUILD<br>
+                <span>SOMETHING.</span>
+            </h2>
+
             <p>
-                GitHub:
-                <a href="https://github.com/kenbuena30-art">
-                    github.com/kenbuena30-art
-                </a>
+                Have an idea, project, or just want to
+                connect? Send me a message.
             </p>
+
+            <a
+                href="mailto:your-email@example.com"
+                class="btn primary-btn"
+            >
+                GET IN TOUCH →
+            </a>
+
         </section>
 
     </main>
 
+
+    <!-- ================= FOOTER ================= -->
+
     <footer>
-        <p>© 2026 Your Name. All rights reserved.</p>
+
+        <p>
+            © 2026 Ken Buena
+        </p>
+
+        <p>
+            BUILT WITH CODE
+        </p>
+
     </footer>
 
+
+    <!-- ================= JAVASCRIPT ================= -->
+
     <script src="script.js"></script>
+
 </body>
+
 </html>
